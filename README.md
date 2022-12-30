@@ -1,5 +1,9 @@
 # CUDA-Sorting
 
+These repo contains three files for GPU sorting.
+thrust.cu used thrust::sort() function
+singlethread.cu uses radix sort and multithread.cu uses the parallel GPU radix sort.
+
 The programs accept three command line arguments while running, 
 	- the size of the array
 	- a seed value for generating the random number
